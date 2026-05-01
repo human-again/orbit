@@ -1,0 +1,22 @@
+{
+  "adapter": "adapters.demo_replay:DemoReplayAdapter",
+  "adapter_args": {
+    "scenario": "issue-search"
+  },
+  "validation_commands": [
+    "../../.venv/bin/python -m pytest tests -q"
+  ],
+  "run_evaluator": true,
+  "run_reviewer": true,
+  "max_iterations": 1,
+  "mode": "hitl",
+  "allowed_files": [
+    "app/dashboard.py"
+  ],
+  "require_validation": true,
+  "working_directory": "examples/issue-search",
+  "mission_file": "examples/issue-search/mission.md",
+  "rules_file": "examples/issue-search/agent-rules.md",
+  "backlog_file": "examples/issue-search/backlog.json",
+  "progress_file": "examples/issue-search/progress.md"
+}

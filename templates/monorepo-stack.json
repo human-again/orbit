@@ -1,0 +1,12 @@
+{
+  "name": "monorepo",
+  "validation_commands": [
+    "pnpm -r test",
+    "pnpm -r lint",
+    "pnpm -r typecheck"
+  ],
+  "agent_rules_append": [
+    "Change only the minimal workspace set needed.",
+    "Record affected packages in progress notes."
+  ]
+}

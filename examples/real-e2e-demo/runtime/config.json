@@ -1,0 +1,23 @@
+{
+  "adapter": "adapters.claude_cli:ClaudeCliAdapter",
+  "adapter_args": {
+    "command": "claude",
+    "args": ["--print", "--output-format", "json", "--dangerously-skip-permissions"]
+  },
+  "validation_commands": [
+    "../../.venv/bin/python -m pytest app/test_task_manager.py -v"
+  ],
+  "run_evaluator": true,
+  "run_reviewer": true,
+  "max_iterations": 5,
+  "mode": "hitl",
+  "allowed_files": [
+    "app/task_manager.py"
+  ],
+  "require_validation": true,
+  "working_directory": "examples/real-e2e-demo",
+  "mission_file": "examples/real-e2e-demo/mission.md",
+  "rules_file": "examples/real-e2e-demo/agent-rules.md",
+  "backlog_file": "examples/real-e2e-demo/backlog.json",
+  "progress_file": "examples/real-e2e-demo/progress.md"
+}

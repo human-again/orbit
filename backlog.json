@@ -1,0 +1,72 @@
+[
+  {
+    "id": "task-001",
+    "title": "Create orchestrator loop",
+    "type": "feature",
+    "priority": "high",
+    "risk": "medium",
+    "needs_research": false,
+    "dependencies": [],
+    "acceptance": [
+      "Reads mission, rules, backlog, and progress",
+      "Chooses one unfinished task",
+      "Writes run metadata",
+      "Updates backlog and progress after execution"
+    ],
+    "status": "todo",
+    "passes": false
+  },
+  {
+    "id": "task-002",
+    "title": "Add generic coding-agent adapter interface",
+    "type": "feature",
+    "priority": "high",
+    "risk": "medium",
+    "needs_research": false,
+    "dependencies": [
+      "task-001"
+    ],
+    "acceptance": [
+      "Defines prepare_prompt, run_agent, extract_status, extract_artifacts, supports_tools",
+      "Includes a mock adapter for local testing"
+    ],
+    "status": "todo",
+    "passes": false
+  },
+  {
+    "id": "task-003",
+    "title": "Add bounded research handoff",
+    "type": "feature",
+    "priority": "medium",
+    "risk": "medium",
+    "needs_research": true,
+    "dependencies": [
+      "task-001"
+    ],
+    "acceptance": [
+      "Creates research brief from task metadata",
+      "Stores findings in research/task-id.md",
+      "Passes distilled findings into coding prompt"
+    ],
+    "status": "todo",
+    "passes": false
+  },
+  {
+    "id": "task-004",
+    "title": "Add validation gate runner",
+    "type": "feature",
+    "priority": "high",
+    "risk": "low",
+    "needs_research": false,
+    "dependencies": [
+      "task-001"
+    ],
+    "acceptance": [
+      "Runs lint, tests, and typecheck",
+      "Captures outputs to eval/",
+      "Returns pass/fail summary"
+    ],
+    "status": "todo",
+    "passes": false
+  }
+]

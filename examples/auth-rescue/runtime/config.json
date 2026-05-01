@@ -1,0 +1,22 @@
+{
+  "adapter": "adapters.demo_replay:DemoReplayAdapter",
+  "adapter_args": {
+    "scenario": "auth-rescue"
+  },
+  "validation_commands": [
+    "../../.venv/bin/python -m pytest tests/auth -q"
+  ],
+  "run_evaluator": true,
+  "run_reviewer": true,
+  "max_iterations": 1,
+  "mode": "hitl",
+  "allowed_files": [
+    "app/auth.py"
+  ],
+  "require_validation": true,
+  "working_directory": "examples/auth-rescue",
+  "mission_file": "examples/auth-rescue/mission.md",
+  "rules_file": "examples/auth-rescue/agent-rules.md",
+  "backlog_file": "examples/auth-rescue/backlog.json",
+  "progress_file": "examples/auth-rescue/progress.md"
+}

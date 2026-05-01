@@ -1,0 +1,12 @@
+{
+  "name": "node",
+  "validation_commands": [
+    "npm test",
+    "npm run lint",
+    "npm run typecheck"
+  ],
+  "agent_rules_append": [
+    "Prefer incremental changes that keep build scripts green.",
+    "Do not add dependencies without justification."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "python",
+  "validation_commands": [
+    "python -m py_compile orchestrator.py",
+    "pytest -q"
+  ],
+  "agent_rules_append": [
+    "Prefer small pure-Python changes.",
+    "Update or add tests when behavior changes."
+  ]
+}

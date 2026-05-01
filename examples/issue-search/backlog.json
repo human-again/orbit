@@ -1,0 +1,21 @@
+[
+  {
+    "id": "task-001",
+    "title": "Filter issue cards by title",
+    "type": "feature",
+    "priority": "high",
+    "risk": "low",
+    "needs_research": false,
+    "dependencies": [],
+    "acceptance": [
+      "A non-empty query filters issues by title substring, case-insensitively",
+      "The rendered dashboard preserves the search value in the input field",
+      "An unmatched query renders the empty-state message instead of the full list"
+    ],
+    "validation_commands": [
+      "../../.venv/bin/python -m pytest tests -q"
+    ],
+    "status": "todo",
+    "passes": false
+  }
+]

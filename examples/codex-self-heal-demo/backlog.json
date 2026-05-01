@@ -1,0 +1,21 @@
+[
+  {
+    "id": "task-001",
+    "title": "Repair orchestrator Codex integration plumbing",
+    "type": "bugfix",
+    "priority": "high",
+    "risk": "low",
+    "needs_research": false,
+    "dependencies": [],
+    "acceptance": [
+      "Task bundles include the exact validation commands Orbit will run",
+      "Task bundles include the configured working directory",
+      "Validation uses the risk-gated command runner instead of direct subprocess execution"
+    ],
+    "validation_commands": [
+      ".venv/bin/python -m pytest tests/test_orchestrator.py -q"
+    ],
+    "status": "todo",
+    "passes": false
+  }
+]

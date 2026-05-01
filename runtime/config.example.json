@@ -1,0 +1,20 @@
+{
+  "mode": "hitl",
+  "max_iterations": 10,
+  "max_wall_clock_minutes": 120,
+  "max_no_progress_streak": 2,
+  "require_validation": true,
+  "allow_research": true,
+  "validation_commands": [
+    "npm test",
+    "npm run lint",
+    "npm run typecheck"
+  ],
+  "agent": {
+    "provider": "generic-cli",
+    "command": "your-agent-cli",
+    "args": [
+      "run"
+    ]
+  }
+}

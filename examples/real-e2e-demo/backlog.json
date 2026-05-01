@@ -1,0 +1,59 @@
+[
+  {
+    "id": "task-001",
+    "title": "Implement mark_done",
+    "type": "feature",
+    "priority": "high",
+    "risk": "low",
+    "needs_research": false,
+    "dependencies": [],
+    "acceptance": [
+      "mark_done(id) sets done=True and returns True for a valid task id",
+      "mark_done(id) returns False for a missing task id"
+    ],
+    "validation_commands": [
+      "../../.venv/bin/python -m pytest app/test_task_manager.py -k mark_done -v"
+    ],
+    "status": "done",
+    "passes": true
+  },
+  {
+    "id": "task-002",
+    "title": "Implement filter_by_priority",
+    "type": "feature",
+    "priority": "high",
+    "risk": "low",
+    "needs_research": false,
+    "dependencies": [
+      "task-001"
+    ],
+    "acceptance": [
+      "Returns a list of task dicts matching the given priority string",
+      "Returns an empty list if no tasks match"
+    ],
+    "validation_commands": [
+      "../../.venv/bin/python -m pytest app/test_task_manager.py -k filter_by_priority -v"
+    ],
+    "status": "done",
+    "passes": true
+  },
+  {
+    "id": "task-003",
+    "title": "Implement summary",
+    "type": "feature",
+    "priority": "medium",
+    "risk": "low",
+    "needs_research": false,
+    "dependencies": [
+      "task-002"
+    ],
+    "acceptance": [
+      "Returns {\"total\": N, \"done\": N, \"pending\": N} reflecting current task state"
+    ],
+    "validation_commands": [
+      "../../.venv/bin/python -m pytest app/test_task_manager.py -v"
+    ],
+    "status": "done",
+    "passes": true
+  }
+]

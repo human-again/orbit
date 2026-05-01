@@ -1,0 +1,63 @@
+{"ts": "2026-04-27T15:14:14.448607+00:00", "type": "iteration_started", "payload": {"iteration": 1, "task_id": "task-001"}}
+{"ts": "2026-04-27T15:14:14.452589+00:00", "type": "attempt_started", "payload": {"task_id": "task-001", "attempt": 1}}
+{"ts": "2026-04-27T15:14:26.316222+00:00", "type": "attempt_finished", "payload": {"task_id": "task-001", "attempt": 1, "status": "complete", "validation_ok": false, "evaluation": "revise", "review": "iterate"}}
+{"ts": "2026-04-27T15:14:26.316685+00:00", "type": "attempt_started", "payload": {"task_id": "task-001", "attempt": 2}}
+{"ts": "2026-04-27T15:14:36.336181+00:00", "type": "attempt_finished", "payload": {"task_id": "task-001", "attempt": 2, "status": "complete", "validation_ok": false, "evaluation": "revise", "review": "iterate"}}
+{"ts": "2026-04-27T15:14:36.336439+00:00", "type": "iteration_started", "payload": {"iteration": 2, "task_id": "task-001"}}
+{"ts": "2026-04-27T15:14:36.340261+00:00", "type": "attempt_started", "payload": {"task_id": "task-001", "attempt": 1}}
+{"ts": "2026-04-27T15:14:50.294757+00:00", "type": "attempt_finished", "payload": {"task_id": "task-001", "attempt": 1, "status": "complete", "validation_ok": false, "evaluation": "revise", "review": "iterate"}}
+{"ts": "2026-04-27T15:14:50.295455+00:00", "type": "attempt_started", "payload": {"task_id": "task-001", "attempt": 2}}
+{"ts": "2026-04-27T15:15:04.352739+00:00", "type": "attempt_finished", "payload": {"task_id": "task-001", "attempt": 2, "status": "complete", "validation_ok": false, "evaluation": "revise", "review": "iterate"}}
+{"ts": "2026-04-27T15:15:04.353083+00:00", "type": "iteration_started", "payload": {"iteration": 3, "task_id": "task-001"}}
+{"ts": "2026-04-27T15:15:04.356469+00:00", "type": "attempt_started", "payload": {"task_id": "task-001", "attempt": 1}}
+{"ts": "2026-04-27T15:15:16.502832+00:00", "type": "attempt_finished", "payload": {"task_id": "task-001", "attempt": 1, "status": "complete", "validation_ok": false, "evaluation": "revise", "review": "iterate"}}
+{"ts": "2026-04-27T15:15:16.503104+00:00", "type": "attempt_started", "payload": {"task_id": "task-001", "attempt": 2}}
+{"ts": "2026-04-27T15:15:36.609004+00:00", "type": "attempt_finished", "payload": {"task_id": "task-001", "attempt": 2, "status": "complete", "validation_ok": false, "evaluation": "revise", "review": "iterate"}}
+{"ts": "2026-04-27T15:15:36.609467+00:00", "type": "iteration_started", "payload": {"iteration": 4, "task_id": "task-001"}}
+{"ts": "2026-04-27T15:15:36.610994+00:00", "type": "attempt_started", "payload": {"task_id": "task-001", "attempt": 1}}
+{"ts": "2026-04-27T15:15:49.364840+00:00", "type": "attempt_finished", "payload": {"task_id": "task-001", "attempt": 1, "status": "complete", "validation_ok": false, "evaluation": "revise", "review": "iterate"}}
+{"ts": "2026-04-27T15:15:49.366570+00:00", "type": "attempt_started", "payload": {"task_id": "task-001", "attempt": 2}}
+{"ts": "2026-04-27T15:16:02.381178+00:00", "type": "attempt_finished", "payload": {"task_id": "task-001", "attempt": 2, "status": "complete", "validation_ok": false, "evaluation": "revise", "review": "iterate"}}
+{"ts": "2026-04-27T15:16:02.381600+00:00", "type": "iteration_started", "payload": {"iteration": 5, "task_id": "task-001"}}
+{"ts": "2026-04-27T15:16:02.383869+00:00", "type": "attempt_started", "payload": {"task_id": "task-001", "attempt": 1}}
+{"ts": "2026-04-27T15:16:13.087529+00:00", "type": "attempt_finished", "payload": {"task_id": "task-001", "attempt": 1, "status": "complete", "validation_ok": false, "evaluation": "revise", "review": "iterate"}}
+{"ts": "2026-04-27T15:16:13.087794+00:00", "type": "attempt_started", "payload": {"task_id": "task-001", "attempt": 2}}
+{"ts": "2026-04-27T15:16:25.092813+00:00", "type": "attempt_finished", "payload": {"task_id": "task-001", "attempt": 2, "status": "complete", "validation_ok": false, "evaluation": "revise", "review": "iterate"}}
+{"ts": "2026-04-27T15:18:02.385211+00:00", "type": "iteration_started", "payload": {"iteration": 1, "task_id": "task-001"}}
+{"ts": "2026-04-27T15:18:02.391429+00:00", "type": "attempt_started", "payload": {"task_id": "task-001", "attempt": 1}}
+{"ts": "2026-04-27T15:18:03.132808+00:00", "type": "attempt_finished", "payload": {"task_id": "task-001", "attempt": 1, "status": "complete", "validation_ok": true, "evaluation": "pass", "review": "accept"}}
+{"ts": "2026-04-27T15:18:03.143478+00:00", "type": "iteration_started", "payload": {"iteration": 2, "task_id": "task-001"}}
+{"ts": "2026-04-27T15:18:03.164079+00:00", "type": "attempt_started", "payload": {"task_id": "task-001", "attempt": 1}}
+{"ts": "2026-04-27T15:18:04.032513+00:00", "type": "attempt_finished", "payload": {"task_id": "task-001", "attempt": 1, "status": "complete", "validation_ok": true, "evaluation": "pass", "review": "accept"}}
+{"ts": "2026-04-27T15:18:04.032875+00:00", "type": "iteration_started", "payload": {"iteration": 3, "task_id": "task-001"}}
+{"ts": "2026-04-27T15:18:04.033650+00:00", "type": "attempt_started", "payload": {"task_id": "task-001", "attempt": 1}}
+{"ts": "2026-04-27T15:18:04.705678+00:00", "type": "attempt_finished", "payload": {"task_id": "task-001", "attempt": 1, "status": "complete", "validation_ok": true, "evaluation": "pass", "review": "accept"}}
+{"ts": "2026-04-27T15:18:04.705978+00:00", "type": "iteration_started", "payload": {"iteration": 4, "task_id": "task-001"}}
+{"ts": "2026-04-27T15:18:04.707937+00:00", "type": "attempt_started", "payload": {"task_id": "task-001", "attempt": 1}}
+{"ts": "2026-04-27T15:18:05.364854+00:00", "type": "attempt_finished", "payload": {"task_id": "task-001", "attempt": 1, "status": "complete", "validation_ok": true, "evaluation": "pass", "review": "accept"}}
+{"ts": "2026-04-27T15:18:05.365896+00:00", "type": "iteration_started", "payload": {"iteration": 5, "task_id": "task-001"}}
+{"ts": "2026-04-27T15:18:05.366980+00:00", "type": "attempt_started", "payload": {"task_id": "task-001", "attempt": 1}}
+{"ts": "2026-04-27T15:18:06.077459+00:00", "type": "attempt_finished", "payload": {"task_id": "task-001", "attempt": 1, "status": "complete", "validation_ok": true, "evaluation": "pass", "review": "accept"}}
+{"ts": "2026-04-27T15:19:20.816321+00:00", "type": "iteration_started", "payload": {"iteration": 1, "task_id": "task-001"}}
+{"ts": "2026-04-27T15:19:20.818220+00:00", "type": "attempt_started", "payload": {"task_id": "task-001", "attempt": 1}}
+{"ts": "2026-04-27T15:19:21.784614+00:00", "type": "attempt_finished", "payload": {"task_id": "task-001", "attempt": 1, "status": "complete", "validation_ok": true, "evaluation": "pass", "review": "accept"}}
+{"ts": "2026-04-27T15:19:21.785193+00:00", "type": "iteration_started", "payload": {"iteration": 2, "task_id": "task-002"}}
+{"ts": "2026-04-27T15:19:21.788312+00:00", "type": "attempt_started", "payload": {"task_id": "task-002", "attempt": 1}}
+{"ts": "2026-04-27T15:19:22.692415+00:00", "type": "attempt_finished", "payload": {"task_id": "task-002", "attempt": 1, "status": "complete", "validation_ok": true, "evaluation": "pass", "review": "accept"}}
+{"ts": "2026-04-27T15:19:22.692700+00:00", "type": "iteration_started", "payload": {"iteration": 3, "task_id": "task-003"}}
+{"ts": "2026-04-27T15:19:22.693527+00:00", "type": "attempt_started", "payload": {"task_id": "task-003", "attempt": 1}}
+{"ts": "2026-04-27T15:19:23.458509+00:00", "type": "attempt_finished", "payload": {"task_id": "task-003", "attempt": 1, "status": "complete", "validation_ok": true, "evaluation": "pass", "review": "accept"}}
+{"ts": "2026-04-27T15:33:16.462867+00:00", "type": "iteration_started", "payload": {"iteration": 1, "task_id": "task-001"}}
+{"ts": "2026-04-27T15:33:16.467707+00:00", "type": "attempt_started", "payload": {"task_id": "task-001", "attempt": 1}}
+{"ts": "2026-04-27T15:34:10.972968+00:00", "type": "attempt_finished", "payload": {"task_id": "task-001", "attempt": 1, "status": "failed", "validation_ok": false, "evaluation": "revise", "review": "iterate"}}
+{"ts": "2026-04-27T15:34:10.973273+00:00", "type": "attempt_started", "payload": {"task_id": "task-001", "attempt": 2}}
+{"ts": "2026-04-27T15:34:58.958635+00:00", "type": "attempt_finished", "payload": {"task_id": "task-001", "attempt": 2, "status": "failed", "validation_ok": false, "evaluation": "revise", "review": "iterate"}}
+{"ts": "2026-04-27T15:37:41.177613+00:00", "type": "iteration_started", "payload": {"iteration": 1, "task_id": "task-001"}}
+{"ts": "2026-04-27T15:37:41.179568+00:00", "type": "attempt_started", "payload": {"task_id": "task-001", "attempt": 1}}
+{"ts": "2026-04-27T15:38:32.196440+00:00", "type": "attempt_finished", "payload": {"task_id": "task-001", "attempt": 1, "status": "complete", "validation_ok": true, "evaluation": "pass", "review": "accept"}}
+{"ts": "2026-04-27T15:38:32.197742+00:00", "type": "iteration_started", "payload": {"iteration": 2, "task_id": "task-002"}}
+{"ts": "2026-04-27T15:38:32.198652+00:00", "type": "attempt_started", "payload": {"task_id": "task-002", "attempt": 1}}
+{"ts": "2026-04-27T15:39:10.615354+00:00", "type": "attempt_finished", "payload": {"task_id": "task-002", "attempt": 1, "status": "complete", "validation_ok": true, "evaluation": "pass", "review": "accept"}}
+{"ts": "2026-04-27T15:39:10.616553+00:00", "type": "iteration_started", "payload": {"iteration": 3, "task_id": "task-003"}}
+{"ts": "2026-04-27T15:39:10.617850+00:00", "type": "attempt_started", "payload": {"task_id": "task-003", "attempt": 1}}
+{"ts": "2026-04-27T15:40:09.568564+00:00", "type": "attempt_finished", "payload": {"task_id": "task-003", "attempt": 1, "status": "complete", "validation_ok": true, "evaluation": "pass", "review": "accept"}}

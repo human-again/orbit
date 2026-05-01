@@ -1,0 +1,35 @@
+{
+  "adapter": "adapters.codex_cli:CodexCliAdapter",
+  "adapter_args": {
+    "command": "codex",
+    "args": [
+      "exec",
+      "--skip-git-repo-check",
+      "--ephemeral",
+      "--json",
+      "--dangerously-bypass-approvals-and-sandbox"
+    ]
+  },
+  "validation_commands": [
+    ".venv/bin/python -m pytest tests/test_orchestrator.py -q"
+  ],
+  "run_evaluator": true,
+  "run_reviewer": true,
+  "max_iterations": 1,
+  "mode": "hitl",
+  "allowed_files": [
+    "orchestrator.py"
+  ],
+  "require_validation": true,
+  "mission_file": "examples/codex-self-heal-demo/mission.md",
+  "rules_file": "examples/codex-self-heal-demo/agent-rules.md",
+  "backlog_file": "examples/codex-self-heal-demo/backlog.json",
+  "progress_file": "examples/codex-self-heal-demo/progress.md",
+  "retry_policy": {
+    "max_attempts": 1,
+    "retry_on_statuses": [
+      "failed"
+    ],
+    "retry_on_validation_failure": false
+  }
+}

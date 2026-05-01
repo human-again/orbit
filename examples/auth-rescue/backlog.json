@@ -1,0 +1,21 @@
+[
+  {
+    "id": "task-001",
+    "title": "Normalize auth email lookups",
+    "type": "bugfix",
+    "priority": "high",
+    "risk": "low",
+    "needs_research": false,
+    "dependencies": [],
+    "acceptance": [
+      "authenticate(users, email, password) succeeds for case-insensitive email input",
+      "authenticate(users, email, password) succeeds for email input with surrounding whitespace",
+      "issue_session_label(users, email, password) returns a canonical lowercase session label"
+    ],
+    "validation_commands": [
+      "../../.venv/bin/python -m pytest tests/auth -q"
+    ],
+    "status": "todo",
+    "passes": false
+  }
+]
