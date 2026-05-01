@@ -1,0 +1,31 @@
+{
+  "tasks": [
+    {
+      "id": "task-001",
+      "title": "Implement password hashing and token issuance",
+      "priority": 1,
+      "depends_on": [],
+      "acceptance_criteria": [
+        "Passwords are hashed with bcrypt or argon2 — never stored raw",
+        "Tokens are signed JWTs with an expiry claim",
+        "Tests verify hashing and token issuance"
+      ],
+      "status": "todo",
+      "passes": false
+    },
+    {
+      "id": "task-002",
+      "title": "Implement token validation middleware",
+      "priority": 2,
+      "depends_on": ["task-001"],
+      "acceptance_criteria": [
+        "Expired tokens are rejected with a 401 response",
+        "Tampered tokens are rejected",
+        "Valid tokens pass through middleware",
+        "Tests cover all three cases"
+      ],
+      "status": "todo",
+      "passes": false
+    }
+  ]
+}

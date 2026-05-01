@@ -1,0 +1,30 @@
+{
+  "tasks": [
+    {
+      "id": "task-001",
+      "title": "Scaffold CLI entry point with argument parsing",
+      "priority": 1,
+      "depends_on": [],
+      "acceptance_criteria": [
+        "--help works and documents all flags and subcommands",
+        "Entry point is registered in pyproject.toml scripts section",
+        "Tests invoke the CLI programmatically and assert stdout/stderr"
+      ],
+      "status": "todo",
+      "passes": false
+    },
+    {
+      "id": "task-002",
+      "title": "Implement core command logic with proper exit codes",
+      "priority": 2,
+      "depends_on": ["task-001"],
+      "acceptance_criteria": [
+        "Success path exits with code 0",
+        "Error path exits with a non-zero code and prints a readable message",
+        "Tests cover both the success and error paths"
+      ],
+      "status": "todo",
+      "passes": false
+    }
+  ]
+}

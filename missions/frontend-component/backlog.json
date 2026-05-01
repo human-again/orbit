@@ -1,0 +1,30 @@
+{
+  "tasks": [
+    {
+      "id": "task-001",
+      "title": "Implement the component with props and basic rendering",
+      "priority": 1,
+      "depends_on": [],
+      "acceptance_criteria": [
+        "Component renders correctly given valid props",
+        "Empty state renders a sensible fallback",
+        "Snapshot or render test exists"
+      ],
+      "status": "todo",
+      "passes": false
+    },
+    {
+      "id": "task-002",
+      "title": "Add accessibility and keyboard navigation",
+      "priority": 2,
+      "depends_on": ["task-001"],
+      "acceptance_criteria": [
+        "All interactive elements have descriptive ARIA labels",
+        "Tab order is logical and keyboard navigation works end-to-end",
+        "No axe-core or similar accessibility violations"
+      ],
+      "status": "todo",
+      "passes": false
+    }
+  ]
+}

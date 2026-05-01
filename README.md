@@ -1,5 +1,10 @@
 # 🛸 Orbit
 
+[![CI](https://github.com/human-again/orbit/actions/workflows/ci.yml/badge.svg)](https://github.com/human-again/orbit/actions/workflows/ci.yml)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![v0.1.0](https://img.shields.io/badge/version-v0.1.0-green.svg)](https://github.com/human-again/orbit/releases/tag/v0.1.0)
+
 > **Mission control for AI coding agents.**
 
 Orbit is the harness your coding agent actually needs — structured loops, real validation gates, rubric-based evaluation, checkpoint resumability, and a full audit trail. Define the mission. Orbit lands it.
@@ -259,6 +264,14 @@ scripts/make-demo-media.sh auth-rescue
 scripts/make-demo-media.sh issue-search
 scripts/make-demo-media.sh orchestrator-pseudocode
 ```
+
+---
+
+## ⭐ Star it
+
+If Orbit has saved you from an agent that said "tests passing" when they weren't — star it. It helps others find it.
+
+[![Star on GitHub](https://img.shields.io/github/stars/human-again/orbit?style=social)](https://github.com/human-again/orbit)
 
 ---
 

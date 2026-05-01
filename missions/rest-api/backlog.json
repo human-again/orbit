@@ -1,0 +1,30 @@
+{
+  "tasks": [
+    {
+      "id": "task-001",
+      "title": "Scaffold route handlers and request models",
+      "priority": 1,
+      "depends_on": [],
+      "acceptance_criteria": [
+        "Routes are defined for GET, POST, PUT, DELETE",
+        "Request models validate required fields and types",
+        "Tests exist for each route's happy path"
+      ],
+      "status": "todo",
+      "passes": false
+    },
+    {
+      "id": "task-002",
+      "title": "Add error handling and structured error responses",
+      "priority": 2,
+      "depends_on": ["task-001"],
+      "acceptance_criteria": [
+        "4xx errors return {\"error\": \"...\", \"message\": \"...\"} JSON",
+        "500 errors are logged with request context",
+        "Tests cover invalid input, missing fields, and wrong types"
+      ],
+      "status": "todo",
+      "passes": false
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "tasks": [
+    {
+      "id": "task-001",
+      "title": "Write and test the migration script",
+      "priority": 1,
+      "depends_on": [],
+      "acceptance_criteria": [
+        "Migration runs up without error",
+        "Migration runs down without error and restores previous schema",
+        "Schema matches the intended target after up"
+      ],
+      "status": "todo",
+      "passes": false
+    },
+    {
+      "id": "task-002",
+      "title": "Update ORM model and add model tests",
+      "priority": 2,
+      "depends_on": ["task-001"],
+      "acceptance_criteria": [
+        "Model reflects the new schema fields",
+        "CRUD tests pass with the updated model",
+        "No raw SQL references to the old schema remain"
+      ],
+      "status": "todo",
+      "passes": false
+    }
+  ]
+}
