@@ -32,3 +32,10 @@
 - Validation: `git diff --check` passed; `.venv/bin/pytest tests/ -q` passed locally with 21 tests.
 - Risks: local validation used the available system Python 3.9 virtualenv even though the project declares Python 3.11+; GitHub CI remains configured for Python 3.11, 3.12, and 3.13.
 - Next step: open starter `good first issue` / `help wanted` issues for adapters, mission templates, demos, docs, and validation fixtures.
+
+## 2026-05-20
+- Task id: tiny-landing-page
+- Changed: added a no-build static landing page at `docs/index.html`, using the supplied Orbit hero image at `docs/media/orbit.png`, and linked it from the README.
+- Validation: `git diff --check` passed; `.venv/bin/pytest tests/ -q` passed with 21 tests; local static server returned HTTP 200 for `/` and `/media/orbit.png`; browser smoke test passed at desktop and mobile sizes with no console warnings or errors.
+- Risks: GitHub Pages still needs to be enabled for the `/docs` folder in repository settings before the page has a public URL.
+- Next step: enable GitHub Pages for the `/docs` folder after the PR merges.

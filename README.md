@@ -9,6 +9,8 @@
 
 Orbit is the harness your coding agent actually needs — structured loops, real validation gates, rubric-based evaluation, checkpoint resumability, and a full audit trail. Define the mission. Orbit lands it.
 
+Explore the tiny landing page in [`docs/index.html`](docs/index.html), ready for GitHub Pages.
+
 <p align="center">
   <img src="docs/media/auth-rescue.gif" alt="Orbit rescuing a broken auth flow" width="700"/>
 </p>
