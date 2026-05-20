@@ -25,3 +25,10 @@
 - Validation: `pytest tests/test_demo_replay.py -q` — 9 passed; all three GIFs verified visually (dark background, correct color scheme, text visible).
 - Risks: `ffmpeg`'s `drawtext` filter is not available in this Homebrew build (no libfreetype); the Pillow-based approach is the primary path and the `--screen-capture` flag retains the avfoundation path for future use.
 - Next step: add `orchestrator-pseudocode` GIF reference to README if desired.
+
+## 2026-05-20
+- Task id: community-readiness
+- Changed: added a standard MIT `LICENSE`, code of conduct, GitHub issue forms, PR template, and documented good first contribution lanes.
+- Validation: `git diff --check` passed; `.venv/bin/pytest tests/ -q` passed locally with 21 tests.
+- Risks: local validation used the available system Python 3.9 virtualenv even though the project declares Python 3.11+; GitHub CI remains configured for Python 3.11, 3.12, and 3.13.
+- Next step: open starter `good first issue` / `help wanted` issues for adapters, mission templates, demos, docs, and validation fixtures.
