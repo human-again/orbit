@@ -1,0 +1,27 @@
+name: Demo or mission template
+description: Suggest a runnable demo or reusable mission template.
+title: "[Demo]: "
+labels: ["documentation", "help wanted"]
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Scenario
+      description: What real coding-agent workflow should Orbit demonstrate?
+      placeholder: Example: flaky test repair, dependency upgrade, lint cleanup, adapter smoke test.
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Why this matters
+      description: Explain what failure mode or workflow this would make easier to understand.
+    validations:
+      required: true
+  - type: textarea
+    id: artifacts
+    attributes:
+      label: Expected artifacts
+      description: List the mission files, tests, docs, or replay assets the demo should produce.
+    validations:
+      required: true

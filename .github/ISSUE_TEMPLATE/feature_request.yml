@@ -1,0 +1,40 @@
+name: Feature request
+description: Propose a focused improvement to Orbit.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What agent-workflow failure or contributor need should this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe the smallest coherent change that would solve the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: List concrete checks that would prove the change works.
+      placeholder: |
+        - ...
+        - ...
+    validations:
+      required: true
+  - type: dropdown
+    id: contribution
+    attributes:
+      label: Contribution fit
+      options:
+        - Good first issue
+        - Help wanted
+        - Maintainer-scoped
+        - Needs discussion first
+    validations:
+      required: true

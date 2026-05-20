@@ -1,0 +1,55 @@
+name: Bug report
+description: Report a reproducible Orbit harness issue.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping make Orbit more reliable. Please include deterministic evidence where possible.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the incorrect behavior and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      description: Include commands, config, mission files, or demo names needed to reproduce.
+      placeholder: |
+        1. Run `...`
+        2. See `...`
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Paste relevant validation output, artifact snippets, or traceback text.
+      render: text
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: Orbit version or commit
+      placeholder: v0.1.0 or commit SHA
+    validations:
+      required: false
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Orchestrator loop
+        - Adapter
+        - Validation runner
+        - Evaluator or reviewer
+        - Retry, checkpoint, or budget logic
+        - Demo or mission template
+        - Documentation
+    validations:
+      required: true

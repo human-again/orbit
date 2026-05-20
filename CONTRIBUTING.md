@@ -10,6 +10,23 @@ Thanks for your interest. Orbit is intentionally small — contributions that ke
 - **Bug fixes** — especially around validation, retry logic, or checkpoint resumability.
 - **Documentation improvements** — clearer quickstart, better examples.
 
+## Good first contribution lanes
+
+If you are new to Orbit, the safest places to start are:
+
+- **Adapter smoke tests** — add coverage for an existing adapter's command shape, status parsing, or failure behavior.
+- **Mission templates** — add a small, realistic `missions/<scenario>/` folder with `mission.md` and `backlog.json`.
+- **Demo polish** — improve one deterministic replay demo without adding external services or secrets.
+- **Docs examples** — clarify one workflow with exact commands and expected artifact paths.
+- **Validation fixtures** — add a narrow test for validation, retry, checkpoint, budget, or review behavior.
+
+Good first issues should include:
+
+- the file or folder to change,
+- the expected validation command,
+- the artifact or behavior that proves completion,
+- any scope boundaries that should not be crossed.
+
 ## What we don't want (yet)
 
 - New dependencies beyond stdlib + `pytest` + `pillow`
